@@ -1,0 +1,400 @@
+/* Global */
+/*fonts, colors, general styles, */
+@import url('https://fonts.googleapis#com/css?family=Merriweather|Oswald');
+
+body {
+font-family:  'Oswald', sans-serif;
+font-size: 90%;
+color: #467386;
+background-color: rgb(199, 223, 237);}
+
+.logo{
+	float: left;
+	width: 10%;
+	height:5%;
+	margin-left: 5px;
+}
+
+.column {
+  float: left;
+  width: 31.33%;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.maps {
+  float: center;
+  width: 40%;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  transform: rotate(90deg);
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home_img{
+	transform: rotate(90deg);
+	height: 120%;
+	width: 90%;
+}
+
+
+fieldset {
+	width: 310px;
+	margin-top: 20px;
+	border: 1px solid #d6d6d6;
+	background-color: #ffffff;
+	line-height: 1.6em;}
+
+input[type="text"] {
+	width: 120px;
+	border: 1px solid #d6d6d6;
+	padding: 2px;
+	outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999999;}
+input[type="submit"] {
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;}
+input[type="submit"]:hover {
+	border: 1px solid #006633;
+	background-color: #00CC33;
+	color: #ffffff;
+	cursor: pointer;}
+
+legend {
+	font-style: italic;
+	color: #666666;}
+
+li {
+	list-style-image: url("images/icon-plus.png");
+	line-height: 1.6em;}
+
+.title {
+	float: left;
+	width: 160px;
+	clear: left;}
+.submit {
+	width: 310px;
+	text-align: right;}
+
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	
+	border: 4px  #000;
+	background-color: #ffffff;
+	vertical-align: baseline;
+}
+
+
+
+
+/*Index*/
+
+.center-mid-1{
+	width: 940px;
+	background-color: #e0e9f0;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	}
+
+
+
+.center-2{
+	width: 940px;
+	margin: auto;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	}
+
+
+
+/*images*/
+
+.img-1{
+	margin: auto;
+	width: 100%;
+}
+.img-2{
+	margin: auto;
+	width: 30%;
+	padding-left: 7px;
+}
+
+.img-3{
+	margin: auto;
+	width: 30%;
+}
+
+.center-text {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.center-2>h1, .center-2>p{
+	text-align: center;
+}
+
+h1.center-text
+{
+	font-family: 'Courier New', serif;
+	font-size: 550%;
+}
+}
+
+/*The menu at the top of each page*/
+.menu-holder {
+float: right;
+max-width: 80%;
+position: fixed;
+text-align: center;
+height: 100%;
+right: -100%;
+top: 0;
+transition: right .3s ease;
+width: 100%;
+overflow: auto;
+max-width: 100%;
+z-index: 99;
+background-color: rgb(199, 223, 237);
+	 } 
+
+.main-menu {
+	background-color: rgb(199, 223, 237);
+}  
+
+.nice-exp{
+	float: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}  
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+	}
+
+ul li {
+	display: inline;
+	padding: 10px;
+	float: right;
+}
+
+	ul li a, 
+	ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;
+}
+
+/*Hobbies section*/
+.food{
+	text-align: center;
+	font-style: italic;
+	border-style: groove;
+	border-color: #FCF8D7;
+	background-color: #FCBEB1;
+}
+
+.food-1{
+	margin: auto;
+	width: 50%;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 15vw);
+    grid-gap: 15px;
+}
+
+.gal-1{
+	width:75%;
+	height:70%;
+}
+
+.nice-img{
+	width:70%;
+	height:80%;
+}
+
+.travel{
+	text-align: center;
+	font-style: italic;
+	border-style: solid;
+	background-color: #CEE6BF;
+}
+
+.travel-1{
+	margin: auto;
+	width: 50%;
+	float:left;
+
+}
+
+.travel-2{
+	margin: auto;
+	width: 50%;
+	float:right;
+
+}
+
+.sports{
+	text-align: center;
+	font-style: italic;
+	border-style: dotted;
+	border-radius: 30px;
+	border-color: lightblue;
+	background-color: lightpink;
+
+}
+
+.sport-1{
+	margin:auto;
+	width: 30%;
+
+}
+.sport-2{
+	transform: rotate(90deg);
+	margin:auto;
+	width:30%;
+}
+
+
+/*Courses Section*/
+.center-mid-2{
+	width: 940px;
+	background-color: #efeae6;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	}
+
+table {
+	border-spacing: 0px;}
+
+th, td {
+	padding: 5px 30px 5px 10px;
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;}
+
+th, td {
+	text-align: left;
+	background-color: #e0e9f0;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;}
+
+tr.head th {
+	color: #fff;
+	background-color: #90b4d6;
+	border-bottom: 2px solid #547ca0;
+	border-right: 1px solid #749abe;
+	border-top: 1px solid #90b4d6;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666666;
+	letter-spacing: 0.15em;}
+
+td {
+	text-shadow: 1px 1px 1px #ffffff;}
+
+tr.even td, tr.even th {
+	background-color: #e8eff5;}
+
+tr.head th:first-child {
+	/* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+	  Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+
+	  Not all CSS3 properties work well in all browsers. In a way to ensure that web pages
+	  display as expected in their browsers, vendors like Mozilla and Webkit developed their
+	  own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+	  However, it is not unusual to still see these properties used in stylesheets.
+
+	  */
+
+	/* Webkit property*/
+	-webkit-border-top-left-radius: 5px;
+
+	/* Mozilla property*/
+	-moz-border-radius-topleft: 5px;
+
+	/* CSS3 property*/
+	border-top-left-radius: 5px;
+
+	/* More on border-radius property: https://www.the-art-of-web#com/css/border-radius/ */
+}
+
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;}
+
+
+/*Contact Section*/
+.center-mid-3{
+				width: 940px;
+				background-color: lightblue;
+				margin-right: auto;
+				margin-left: auto;
+				padding-bottom: 15px;
+				padding-top: 5px;
+				}
+
+.center-3{
+				width: 300px;
+				margin: 0 0;
+				}
+
+.map{text-align: center;}
+
+/*Footer section*/
+
+.footer p{
+	margin: auto;
+	text-align: center;
+}
+
+.footer .socialmedia{
+	margin: auto;
+	text-align: center;
+}
+
+.smlogo{
+	height: 21.3px;
+	width: 17px;
+}
+
